@@ -65,7 +65,7 @@ Decoradores implementados:
 ---
 
 
-## ⚙️ Benefícios da Refatoração
+##  Benefícios da Refatoração
 
 - **Redução de Acoplamento**: O `SensorManager` interage apenas com a abstração `Sensor`, sem conhecer as implementações específicas. Isso facilita modificações e ampliações no sistema sem impacto em outras partes do código.
 
