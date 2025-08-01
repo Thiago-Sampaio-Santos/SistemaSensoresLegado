@@ -1,12 +1,12 @@
 # Sistema de Sensores Refatorado com Padrões de Projeto (GOF)
 
-## 📋 Descrição
+##  Descrição
 
 Este projeto refatora um sistema legado de sensores de temperatura, umidade e luminosidade utilizando padrões de projeto GOF, com foco nos padrões **Adapter**, **Decorator**, **Factory Method** e **Singleton**. A refatoração tem como objetivo tornar o sistema mais modular, reutilizável e de fácil manutenção, especialmente em ambientes embarcados e IoT.
 
 ---
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 src/
 ├── adapters/    # Implementações dos Adapters (adaptam sensores legados)
@@ -18,7 +18,7 @@ src/
 
 ---
 
-## 🚀 Como Executar
+##  Como Executar
 
 1.  **Pré-requisitos:** Certifique-se de ter o Java Development Kit (JDK) instalado (versão 8 ou superior).
 2.  **Compilação:** Navegue até a pasta `src` no seu terminal e compile os arquivos `.java` utilizando o comando:
@@ -35,7 +35,7 @@ src/
 
 ---
 
-## 🧱 Padrões de Projeto Utilizados
+##  Padrões de Projeto Utilizados
 
 
 - **Factory Method**: Utilizado para encapsular a criação dos sensores. Cada tipo de sensor possui sua própria fábrica (como `LuminosidadeFactory`, `TemperaturaFactory`, `UmidadeFactory`), que instancia sensores concretos com base na interface comum `Sensor`. Isso promove baixo acoplamento e permite incluir novos sensores sem alterar a lógica do sistema.
@@ -81,7 +81,7 @@ Decoradores implementados:
 
 ---
 
-## 👤 Autores
+##  Discentes
 
 - Hildemar Lemos de Santana Júnior 
 - Kleberson de Jesus Sousa 
